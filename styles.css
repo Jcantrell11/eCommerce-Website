@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+nav li {
+    display: inline-flex;
+    margin-left: 0.5rem;
+}
+
+nav h1 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    float: right;
+}
+
+header div {
+    float: right;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.products-container div {
+    display: flex;
+    padding: 0%; 
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;  
+}
+
+.ourproducts {
+    display: grid;
+}
+
+.products img {
+    width: 150px;
+    height: 150px;
+    align-items: flex-start;
+}
+
+
+footer {
+    background-color: #bf7631;
+    width: 100%;
+}
+
+.products-container {
+    max-width: 75 rem;
+    height: 75 rem;
+    display: grid;
+    grid-template-areas:
+        "top-l top top-r"
+        "mid-l mid mid-r"
+        "bot-l bot bot-r";
+
+}
+
+.products p {
+   display: left;
+}
+
+
+
+div title {
+    display: flexbox;
+}
+
+.about img {
+    display: flex;
+    height: 300px;
+    width: 200px;
+}
+
+hr.solid {
+    border-top: 3px solid #0b0b0b;
+  }
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.products button {
+    color: #faf9f8;
+    background-color: #bf7631;
+    border-color: #bf7631;
+}
+
+hr {
+    width: 50%
+}
+
+.button1 div {
+    display: flex;
+    align-content: center ;
+}
+
+.button2 div {
+    align-content: center;
+}
+
+.homeimage div {
+    width: 100%;
+    height: auto;
+}
+
+.topnav div {
+    display: flex;
+}
